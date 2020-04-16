@@ -1,0 +1,73 @@
+.header{
+          margin:0;
+		  padding: 25px;
+		  line-height: 1;
+		  background-color: slategrey;
+		  color: white;
+		  text-align: center;
+		  
+		}  
+body{ font-family: arial;
+      background-color:lightgrey;
+	  border: 1px solid;
+}
+*{ box-sizing: border-box;}
+input[type=text] {padding:10px;}
+.header h1{ font-size: 40px;
+             font-familiy: verdana;}	
+.topbar{ 
+          display: block;
+		  width:100%;
+		  background-color:cyan;
+		  overflow: hidden;
+		  padding:10px;
+       }  
+.topbar a{
+	      padding: 8px 16px;
+          margin-left:	10px;
+		  color: brown;
+		  text-decoration: none;
+		  text-align:center;
+}	   
+.topbar a:hover {
+	              background-color:lightgrey;
+				  color: purple;
+}
+ .content {
+            
+			text-align: center;
+			margin-top: 0;
+			padding:20px;
+			color: purple;
+ }			
+ .box {
+	     width: 700px;
+		 height: auto;
+		 margin: auto;
+		 background-color: linen;
+		 border: 1px solid black;
+		 text-align: center;
+		 border-radius: 20px;
+		 padding: 25px;
+		 
+ }	 
+ .footer {
+	       text-align: left;
+		   padding: 10px;
+		   background-color: slategrey;
+		   color: white;
+		   margin: 40px 0 0 0;
+           		   
+ }  
+ 
+ .mypic { 
+        width: 120px;
+		margin-left: 45%;
+		border-radius:50%;
+		border: 1px solid black;
+ }	
+ 
+ @media only screen and (max-width: 600px) {
+	 .topbar { width:100%;}
+	 
+ }
