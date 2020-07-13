@@ -1,8 +1,8 @@
 def call(string){
   if (string!=null && string.length()>0) {
-      result = 'Found'
+      return 'Found'
   } else {
-      result = 'Not found'
+      return 'Not found'
   }
 }
 return this
