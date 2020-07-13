@@ -1,4 +1,4 @@
-def call(ENV){
+def call(){
         env.BUILD_ENV = "qa"
         env.APPCENTER_APP = "mssapps-5bfk/CNNgo-Android-TV-QA"
         env.APPCENTER_GROUP = "All-users-of-CNNgo-Android-TV-QA"
