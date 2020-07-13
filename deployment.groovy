@@ -5,4 +5,5 @@ def callenv(){
         env.PLATFORM = "android"
         env.PATH = "${PATH}:${HOME}/sonar-scanner/bin"
 }
+return this
  
