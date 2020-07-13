@@ -1,4 +1,4 @@
-def callenv(){
+def callenv(ENV){
     if (ENV == qa){    
         env.BUILD_ENV = "qa"
         env.APPCENTER_APP = "mssapps-5bfk/CNNgo-Android-TV-QA"
