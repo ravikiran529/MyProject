@@ -1,16 +1,16 @@
 def call(ENV){
     if (ENV='qa'){
-        env.BUILD_ENV = "qa"
-        env.APPCENTER_APP = "mssapps-5bfk/CNNgo-Android-TV-QA"
-        env.APPCENTER_GROUP = "All-users-of-CNNgo-Android-TV-QA"
-        env.PLATFORM = "android"
-        env.PATH = "${PATH}:${HOME}/sonar-scanner/bin"
+        BUILD_ENV = "qa"
+        APPCENTER_APP = "mssapps-5bfk/CNNgo-Android-TV-QA"
+        APPCENTER_GROUP = "All-users-of-CNNgo-Android-TV-QA"
+        PLATFORM = "android"
+        PATH = "${PATH}:${HOME}/sonar-scanner/bin"
     }
     if (ENV='prd'){
-        env.BUILD_ENV = "qa"
-        env.APPCENTER_APP = "mssapps-5bfk/CNNgo-Android-TV-QA"
-        env.APPCENTER_GROUP = "All-users-of-CNNgo-Android-TV-QA"
-        env.PLATFORM = "android"
-        env.PATH = "${PATH}:${HOME}/sonar-scanner/bin"
+        BUILD_ENV = "prd"
+        APPCENTER_APP = "mssapps-5bfk/CNNgo-Android-TV-QA"
+        APPCENTER_GROUP = "All-users-of-CNNgo-Android-TV-QA"
+        PLATFORM = "android"
+        PATH = "${PATH}:${HOME}/sonar-scanner/bin"
     }
 }
